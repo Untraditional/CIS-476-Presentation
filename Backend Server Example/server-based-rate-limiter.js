@@ -39,4 +39,5 @@ app.get('/api/data', (req, res) => {
 
 app.listen(3000, () => {
     console.log('Server running on http://localhost:3000');
+    // API call for postman: GET request: http://localhost:3000/api/data
 });
