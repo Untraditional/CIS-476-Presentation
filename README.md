@@ -1,2 +1,2 @@
 # CIS-476-Presentation
-Rate Limiting Pattern
+CQRS Design Pattern
