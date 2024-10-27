@@ -5,8 +5,8 @@ class DropQueryService {
     return await Drop.findAll();
   }
 
-  async getDropsByMonsterId(monsterid) {
-    return await Drop.findAll({ where: { monsterid } });
+  async getDropsByMonsterId(monsterId) {
+    return await Drop.findAll({ where: { monsterId } });
   }
 }
 

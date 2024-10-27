@@ -15,7 +15,7 @@ const Drop = sequelize.define('Drop', {
     type: DataTypes.INTEGER,
     allowNull: false,
   },
-  monsterid: {
+  monsterId: {  
     type: DataTypes.INTEGER,
     references: {
       model: 'monsters',
